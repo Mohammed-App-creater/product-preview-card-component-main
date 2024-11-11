@@ -17,7 +17,7 @@ body {
 
 main {
   width: 40%;
-  height: 55%;
+  height: 52%;
   display: flex;
   overflow: hidden;
   border-radius: 10px;
@@ -50,19 +50,18 @@ main {
 }
 
 .heading1 {
-  font-size: 2.5rem;
+  font-size: xx-large;
   font-weight: 700;
   text-wrap: wrap;
   width: 95%;
+  line-height: 2rem;
 }
 
 .discription {
   width: 95%;
   font-size: 1rem;
   color: hsl(228, 12%, 48%);
-  text-wrap: wrap;
   line-height: 1.5rem;
-  word-break: normal;
 }
 
 .price {
@@ -108,29 +107,28 @@ button {
     width: 90%;
     height: 93%;
   }
-  .image{
+  .image {
     height: 50%;
     width: 100%;
   }
 
-  .topography{
+  .topography {
     width: 100%;
   }
-  .heading1{
+  .heading1 {
     width: 100%;
     font-size: 1.7rem;
   }
-  .discription{
+  .discription {
     width: 100%;
     font-size: 14px;
   }
 
-  .price{
+  .price {
     width: 75%;
   }
 
-  .attribution{
+  .attribution {
     display: none;
   }
-
 }
